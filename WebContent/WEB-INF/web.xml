@@ -19,4 +19,13 @@
   	<url-pattern>/input/EchoServlet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>MethodServlet</servlet-name>
+    <servlet-class>input.MethodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MethodServlet</servlet-name>
+  	<url-pattern>/input/MethodServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>
